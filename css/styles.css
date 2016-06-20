@@ -1,0 +1,574 @@
+* { box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+} 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-family: "paralucent", Futura, Helvetica, Arial, sans-serif;
+}
+/* end Typography */
+
+/* Navbar */
+#myNavs {
+  padding-left: 15px;
+}
+
+.navbar-fixed-top {
+  background-color: #ef5323;
+  border: 0;
+  height: 60px;
+  box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.19);
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+.navbar-brand {
+  width: 80px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 05px;
+  margin-right: 0;
+}
+
+.nav.navbar-nav li a {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-top: 0px;
+  padding: 5px 10px;
+  padding-top: 20px;
+}
+
+.navbar-fixed-top .navbar-nav> .active> a {
+  background-color: #738c99;
+  color: #c4ced4;
+  height: 60px;
+  transition: color 300ms;
+  -webkit-transition: color 300ms;
+}
+
+.navbar-fixed-top .navbar-nav>.active> a:hover {
+    color: white;
+    background-color: #738c99;
+    transition: color 300ms;
+  -webkit-transition: color 300ms;
+}
+
+.navbar-fixed-top .navbar-nav>.active {
+    color: white;
+    background-color: green;
+    transition: color 300ms;
+  -webkit-transition: color 300ms;
+}
+
+.nav.navbar-nav li a:hover {
+  color: #f48f71;
+  transition: color 300ms;
+  -webkit-transition: color 300ms;
+}
+
+.navbar-toggle {
+  background-color: #738c99;
+  border: 0;
+  border-radius: 0;
+  margin-right: 0px;
+  padding: 15px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #738c99;
+}
+
+.navbar-fixed-top .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+#myNavbar {
+  background-color: #ef5323;
+  width: 100vw;
+}
+
+/* #myNavbar.active> a {
+  background-color:  #4b5d68;
+  width: 100%;
+} */
+/* ends Navbar */
+
+/* home */
+#identity {
+  background: linear-gradient(120deg, #738c99, #607885);
+  height: 100vh;
+  background-size: cover;
+}
+
+#homelogo {
+  margin-top: 90px;
+
+}
+
+#dog-img {
+border-radius: 50%;
+display: inline-block;
+overflow: hidden;
+background: url("../img/fur2.jpg") no-repeat center;
+background-size: cover;
+}
+
+#homehead {
+  margin-top: 20px;
+}
+
+#homehead h1 {
+  color: #fff;
+  font-size: 6em;
+  font-weight: 700;
+  line-height: .8;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#homehead h2 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 15px;
+  line-height: .6;
+  letter-spacing: 1px;
+}
+
+#homehead h3 {
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+  line-height: 1.2;
+  letter-spacing: .3px;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted white;
+  width: 70%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+/* home */
+
+/* services */
+#services {
+  background: url("../img/dogsgreyback.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#dogleft {
+  padding-left: 0;
+}
+
+#dogright {
+  padding-right: 0;
+ 
+}
+
+#servinfo {
+  margin-top: 80px;
+
+}
+
+#servtext {
+  margin-top: 30px;
+  margin-left: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#services h1 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+#services h3 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+#services p {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 200;
+  margin-top: 0;
+  line-height: 1.1;
+  letter-spacing: 1px;
+}
+ 
+#services hr {
+  width: 100%;
+}
+/* end services */
+
+/* rates */
+#rates {
+  background: url("../img/dogsorgeback.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#twodogs {
+  margin-top: 50px;
+  padding-left: 0px;
+}
+
+#ratetext {
+  background: linear-gradient(120deg, #738c99, #607885);
+  padding-top: 40px;
+  padding-bottom: 60px;
+  height: 100vh;
+}
+
+#ratetext h1 {
+  font-size: 2.1em;
+  color: #fff;
+  margin-top: 140px;
+}
+
+#ratetext th {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+#ratetext td {
+  font-size: 1em;
+  color: #fff;
+}
+/* end rates */
+
+/* contact */
+#contact {
+  background: url("../img/fur2.jpg"), rgba(1, 1, 1, 0.2);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 0px;
+}
+
+/* Form */
+#forms {
+  margin-top: 100px;
+  background: linear-gradient(120deg, #ef5323, #d53e10);
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #738c99;
+}
+
+/* removes yellow autofill in Chrome  */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 100px white inset;
+  -moz-box-shadow: 0 0 0 100px white inset;
+  box-shadow: 0 0 0 100px white inset;
+}
+ /* ends removes yellow autofill in Chrome ---------- */
+
+.form-control {
+  border-style: none;
+  border-radius: 0;
+  height: 50px;
+}
+
+.btn.btn-submit {
+  background-color: white;
+  border-style: none;
+  border-radius: 0;
+  color: #738c99;
+}
+
+.btn.btn-submit:active {
+  background-color: #738c99;
+  color: white;
+  outline-style: none;
+}
+
+.btn.btn-submit:focus {
+  outline: none;
+}
+
+#character-counter {
+  color: white;
+}
+/*end Form */
+
+#other-contacts {
+  margin-top: 10px;
+}
+
+#email-phone {
+  margin-top: 10px;
+  background-color: #ef5323;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#email-phone a {
+  font-size: 1em;
+  color: #fff;
+}
+
+.telephone {
+  color: #fff;
+  padding-top: 5px;
+
+}
+
+.glyphicon-envelope {
+  color: white;
+  vertical-align: middle;
+}
+
+.glyphicon-phone {
+  vertical-align: middle;
+}
+/* end contact */
+
+/* footer */
+.footer {
+  height: 45px;
+  width: 100%;
+  background-color: #738c99;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0px -3px 14px rgba(0, 0, 0, 0.19);
+}
+
+.footer-copy {
+  font-size: .7em;
+  font-weight: 600;
+  color: white;
+  padding-top: 20px;
+  margin: 0px;
+  display: inline-block;
+}
+/* end footer */
+
+/* jQuery css ---------- */
+.fadeInBlock {
+  opacity: 0;
+}
+
+/* media queries -------------------- */
+@media (max-width: 768px) {
+  #homehead h1 {
+    font-size: 4em;
+    margin-top: 10px;
+  }
+
+  #homehead h2 {
+    font-size: 1.5em;
+  }
+
+  #homehead h3 {
+    font-size: 2em;
+    line-height: 1.2;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  #services {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+
+  #servinfo {
+    margin-top: 35px;
+  }
+
+  #services h1 {
+    font-size: 2.5em;
+  }
+
+   #services h3 {
+    font-size: 2.5em;
+  }
+
+  #servtext {
+    margin-left: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #ratetext {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  #ratetext h1 {
+    margin-top: 30px;
+    font-size: 1.8em;
+  }
+  
+  #ratetext th {
+    font-size: 1.2em;
+    color: #fff;
+  }
+
+  #forms {
+    height: 310px;
+    margin-top: 100px;
+    padding: 30px;
+    padding-top: 30px;
+  }
+
+  #contact {
+    background-size: cover;
+    height: 100%;
+  }
+
+  .fadeInBlock {
+  opacity: 1;
+  }
+}
+
+
+@media (max-width: 763px) {
+  #homehead h3 {
+    font-size: 2.1em;
+  }
+
+  #identity {
+    height: 100%;
+  }
+
+  #contact {
+    height: 100%;
+  }
+}
+
+@media (max-width: 667px) {
+  #homehead h3 {
+    font-size: 2.1em;
+  }
+
+  #identity {
+    height: 100%;
+  }
+}
+
+@media (max-width: 568px) {
+  #identity {
+    height: 100%;
+  }
+
+  #contact {
+    height: 100%;
+  }
+
+  .footer {
+    height: 40px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 0;
+  }
+
+  .footer-copy {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  #identity {
+    height: 100vh;
+  }
+  
+  #contact {
+    margin-top: 60px;
+  }
+
+  #forms {
+    margin-top: 25px;
+  }
+
+  #email-phone  {
+    padding-bottom: 05px;
+  }
+
+
+  #email-phone a {
+    font-size: .8em;
+    margin-top: 10px;
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 05px;
+  }
+
+  h2.mail  {
+    margin-top: 0px;
+  }
+
+  .telephone h2 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .footer {
+    background-color: #738c99;
+    height: 40px;
+    margin-top: 25px;
+    position: relative;
+    bottom: 0;
+  }
+
+  .footer-copy {
+    font-size: .9em;
+    font-weight: 600;
+    color: white;
+    padding-top: 10px;
+    margin: 0px;
+    display: inline-block;
+  }
+
+
+
+}
+
+
